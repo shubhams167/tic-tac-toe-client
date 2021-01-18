@@ -1,0 +1,26 @@
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-background-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-primary);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer > p {
+    margin: 5px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons a:link,
+.social-icons a:visited {
+    color: var(--color-text-primary);
+}

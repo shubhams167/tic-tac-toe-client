@@ -1,0 +1,27 @@
+:root {
+    --color-text-primary: #444444;
+    --color-text-secondary: #000000;
+    --color-cross: #e72948;
+    --color-circle: #2d71e5;
+    --color-glass: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.2) 100%
+    );
+    --color-background-primary: #f6f6f6;
+    --color-background-secondary: #ebebeb;
+    --color-line: #d1d1d1;
+    --color-switch: #ffffff;
+    --color-switch-background: #a09c9c;
+    --background-light: url(../images/bg-light.png);
+    --background-dark: url(../images/bg-dark.png);
+    --url-background: var(--background-light);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
